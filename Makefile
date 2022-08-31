@@ -2,5 +2,5 @@
 updater:
 	g++ updater.cpp -std=c++20 -o updater	
 
-build:
+app:
 	g++ main.cpp -std=c++20 -o main

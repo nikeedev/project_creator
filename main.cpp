@@ -38,7 +38,7 @@ int main()
 		std::cout << "Creating file for C++ Hello World" << std::endl;
 		std::cout << "Name the file: ";
 		std::cin >> file_name;
-		if (!(file_name == "main"))
+		if (!(file_name == "main") && !(file_name == "updater"))
 		{
 			std::cout << "Creating the file, and adding code..." << std::endl;
 
